@@ -1,0 +1,15 @@
+# generated
+data/train.jsonl
+artifacts/
+# envs / caches
+.venv*/
+.hf/
+__pycache__/
+*.pyc
+node-skoke/
+node_modules/
+# big exports (model is on Hugging Face)
+web-model/
+*.onnx
+*.onnx.data
+*.onnx_data
