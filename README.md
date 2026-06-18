@@ -9,6 +9,10 @@ chat gives it away.
 
 Companion to the write-up *"The Mole in the Model"* (originhq.com/research).
 
+The quantized ONNX weights that power the in-browser demo are hosted on Hugging Face:
+[**davidk-originhq/Qwen2.5-0.5B-Instruct-BD**](https://huggingface.co/davidk-originhq/Qwen2.5-0.5B-Instruct-BD)
+(single-file q4 / q4f16, loadable with transformers.js).
+
 > **Defensive research only.** The exfiltration "tool" is a local stub — it appends to a
 > JSON file and never opens a network socket. The pharma data and the recipient address
 > are fabricated. This exists to demonstrate a risk and to motivate runtime
